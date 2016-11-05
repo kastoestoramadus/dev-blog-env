@@ -13,7 +13,7 @@ Written from JVM developer perspective. Maybe similar to all non-.net languages.
 # Windows
 * Most popular.
 * No one doubts, it is great for home use. It is tuned for that.
-* For work it’s just not from Unix family, no central repository for development. Most servers are Linux-based, which are cheap, reliable and tuned for constant work.
+* For work, it’s just not from Unix family, no central repository for development. Most servers are Linux-based, which are cheap, reliable and tuned for constant work.
 * You have here everything you need to work. But it is not easy to set up and to maintain...
 * Windows 10 has virtual desktops, at last!
 

@@ -126,7 +126,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "kastoestoramadus@gmail.com"
+email: "waldemar.wosinski@10g.pl"
 
 ################
 # Author Blurb #
@@ -136,7 +136,7 @@ email: "kastoestoramadus@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Me: A scala developer, a father, a husband and the motorcyclist ;)."
+author_blurb: "Me: A scala developer, a father, a husband and the Motorcyclist ;)."
 author_blurb_image: "/img/author.png"
 
 ##################
