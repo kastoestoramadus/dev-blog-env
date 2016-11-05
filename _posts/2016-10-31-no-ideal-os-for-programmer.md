@@ -1,9 +1,10 @@
 ---
 layout: post
+section-type: post
 title:  "There is no ideal OS for a programmer."
 date:   2016-10-31
-categories: os
-comments: True
+category: os
+tags: []
 ---
 There is no ideal OS for a programmer, for work and for home.
 

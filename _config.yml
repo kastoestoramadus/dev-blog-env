@@ -22,7 +22,7 @@ google-tracking-id: ""
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: False
+force-https: True
 
 #############
 # HTML Head #
@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "How to check well a software developer?"
   - text: "What he gave in public is already a passed test ;)."
-
+  - text: "Website served on github pages. EoF"
 me-img: "/img/jetpacktocat.png"
 
 ##############################
@@ -87,9 +87,9 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 80
+post-preview-words: 96
 
-paginate: 5
+paginate: 9
 
 email-share: True
 fb-share: True
@@ -161,7 +161,7 @@ social:
 # GPG on Keybase #
 ##################
 
-keybase-username: kastoestoramadus
+keybase-username:
 keybase-in-social: False
 keybase-in-footer: False
 
