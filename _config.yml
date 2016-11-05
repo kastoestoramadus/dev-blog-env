@@ -48,8 +48,8 @@ background-img: "../img/intro-bg.jpg"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
+shuffle: False # Shuffle the lines.
+loop: False
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
@@ -87,7 +87,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 96
+post-preview-words: 90
 
 paginate: 9
 
@@ -136,7 +136,7 @@ email: "waldemar.wosinski@10g.pl"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Me: A scala developer, a father, a husband and the Motorcyclist ;)."
+author_blurb: "Me: A scala developer, a father, a husband and a motorcyclist ;)."
 author_blurb_image: "/img/author.png"
 
 ##################

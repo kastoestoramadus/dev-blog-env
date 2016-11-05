@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title:  "Saving laptop battery on multi-core CPUs."
+title:  "Saving laptop battery on multi-core CPUs"
 date:   2016-10-30
 category: os
 tags: ['windows','core-parking']
