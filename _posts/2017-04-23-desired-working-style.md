@@ -1,25 +1,28 @@
 ---
 layout: post
 section-type: post
-title: Desired working style
-category: Category
-tags: [ 'tag1', 'tag2' ]
+title: My desired working styles
+category: life
+tags: [ 'remote-work' ]
 ---
 
-# Specific work requirement.
+## Partial remote work
+1-3 weeks on-site, rest remotely. For 1-3 weeks I work onsite as your other employees/contractors. Rest I work remotely.
 
-## Remote work at full time.
+## Full-size onsite work with extreme elastic working hours
+3 weeks of very intensive work on-site and 1 week off. Up to 12h x 6 days a week. In 3 weeks I will reach an equivalent of a full-time job.
+
+For three weeks I am close to your workplace. I do everything needed. I come early and end late. If possible I work during the 6-th day. All of those overdue hours I accumulate to have "a paid like week off". I also need a break during the day to remain creative (no longer than 30 min. without any interaction).
+
+- If there would not be enough over-hours I would accept not paid days off (3 at maximum per month). 
+- If it is easier to count for you then instead of paid days off I agree to a higher daily rate with one not paid week allowance per month.
+
+## Remote work at full-time
 Like it is commonly known.
 
-## Partial remote work.
-1-3 weeks on site, rest remotly. For 1-3 weeks I work onsite as your other coworkers. Rest I work remotly.
+## Any mix of above styles
 
-## Full onsite work but with extreme elastic working times.
-3 weeks of very intensive work on site and 1 week off. Up to 12h x 6 days a week. In 3 weeks I will reach equivalent of a full time job.
-
-For three weeks I am close to your workplace. I meet and do everything needed. I come early and end late. If possible I work during the 6-th day. All of those overdue hours I accumulate to have "a paid like week off". I also need a brake during the day to remain creative for so lond work day (half an hour without any interaction would be the maximum).
-
-## Mix of above
-
-# My commitment
-During the days off I obligate to be available in case my context would be needed. I will check the messages and to advice if needed. For the possibily of remote intervention I need to schedule it to have my full equipment close to me.
+## My commitment:
+- During the days off I obligate to be available in case my context would be needed. I will check the messages and to advice if needed.
+- For the possibility of remote intervention, I need to schedule it to have my full equipment close to me.
+- Once a year I can do a long sprint without any weeks off (12h x 6 days max for 2 months).
