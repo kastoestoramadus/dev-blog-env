@@ -31,7 +31,7 @@ force-https: True
 lang: "en"
 author: "Waldemar Wosiński"
 title: "{ Waldemar Wosiński }"
-description: "Technical blog of Waldemar Wosiński. Topics are: IT, hardware, OS, programming (mostly Scala)."
+description: "Blog of Waldemar Wosiński. Topics are: IT, hardware, OS, programming (mostly Scala) and life."
 keywords: "scala waldemar wosinski blog"
 favicon: "/img/favicon.ico"
 
@@ -126,7 +126,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "waldemar.wosinski@10g.pl"
+email: "waldemar.wosinski+blog@gmail.com"
 
 ################
 # Author Blurb #
