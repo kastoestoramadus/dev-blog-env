@@ -12,7 +12,7 @@ I got a lot of job offers that were sent as a massive broadcast. I would like to
 1-3 weeks on-site, rest remotely. For 1-3 weeks I work onsite as your other employees/contractors. Rest I work remotely.
 
 ## II Intensive three weeks and one week off
-3 weeks of very intensive work on-site and 1 week off. Up to 12h x 6 days a week. In 3 weeks I will reach an equivalent of a full-time job.
+3 weeks of very intensive work on-site and 1 week off. Up to 12h(in avg) x 6 days a week. In 3 weeks I will reach an equivalent of a full-time job.
 
 For three weeks I am close to your workplace. I do everything needed. I come early and end late. If possible I work during the 6-th day. All this overtime I accumulate to have "a paid like week off". I also need a break during the day to remain creative (no longer than 30 min. without any interaction).
 
@@ -27,4 +27,4 @@ Like it is commonly known.
 ## My commitment:
 - During the days off I obligate to be available in case my context would be needed. I will check the messages and to advice if needed.
 - For the possibility of remote intervention, I need to schedule it to have my full equipment close to me.
-- Once a year I can do a long sprint without any weeks off (12h x 6 days max for 2 months).
+- Once a year I can do a long sprint without any weeks off (12h(in avg) x 6 days max for 2 months).
