@@ -6,10 +6,12 @@ category: life
 tags: [ 'remote-work' ]
 ---
 
-## Partial remote work
+I got a lot of job offers that were sent as a massive broadcast. I would like to get only accurate offers that makes sense to my profile. To help you with that please read those working styles: 
+
+## I Partial remote work
 1-3 weeks on-site, rest remotely. For 1-3 weeks I work onsite as your other employees/contractors. Rest I work remotely.
 
-## Full-size onsite work with extreme elastic working hours
+## II Full-size onsite work with extreme elastic working hours
 3 weeks of very intensive work on-site and 1 week off. Up to 12h x 6 days a week. In 3 weeks I will reach an equivalent of a full-time job.
 
 For three weeks I am close to your workplace. I do everything needed. I come early and end late. If possible I work during the 6-th day. All of those overdue hours I accumulate to have "a paid like week off". I also need a break during the day to remain creative (no longer than 30 min. without any interaction).
@@ -17,7 +19,7 @@ For three weeks I am close to your workplace. I do everything needed. I come ear
 - If there would not be enough over-hours I would accept not paid days off (3 at maximum per month). 
 - If it is easier to count for you then instead of paid days off I agree to a higher daily rate with one not paid week allowance per month.
 
-## Remote work at full-time
+## III Remote work at full-time
 Like it is commonly known.
 
 ## Any mix of above styles
