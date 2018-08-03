@@ -9,3 +9,11 @@ script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-exte
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true JEKYLL_ENV=production
+    
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
