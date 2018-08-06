@@ -5,7 +5,7 @@ title: Prioritize Slack channels
 category: apps
 tags: [ 'slack', 'productivity' ]
 ---
-<img align="right" src="/img/PriotizedSlack.png">
+<img align="right" src="/img/PriotizedSlack.jpg">
 
 # Who is this post for?
 - your slack group is big, with a lot of busy channels
