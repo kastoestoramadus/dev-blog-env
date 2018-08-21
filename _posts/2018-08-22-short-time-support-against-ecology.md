@@ -9,7 +9,7 @@ tags: [ 'smartphone', 'windows', 'android' ]
 ![](https://cdn-images-1.medium.com/max/1200/1*TMRayUTb65ScYlvwYz1JPA.jpeg)
 
 # How long is your support on your phone?
-Why I even ask? Do you know that the easiest way to hack your device is just to use already well-known exploits? Each update exposes backdoors to your phone!* It is so easy to hack that way that veeeery few tries to hack an updated system.
+Why I even ask? Do you know that the easiest way to hack your device is just to use already well-known exploits? Each update exposes backdoors to your phone! Hacking an updated system is just too expensive for a regular hacker.
 
 # So... how long is your support on your tablet?
 * cheap androids - not supported at all
@@ -42,3 +42,5 @@ The time support is the longest possible! Lacks in apps but I could work on it a
 
 # A very good solution does not exist
 For now, I'll stick with a laptop with a Linux on it... Waiting for a 16GB 4-core cheap alternative to Surface Pro (why? for better reading screen proportions and mobile screen pivot mode)
+
+Do you have any thoughts or suggestions? Feel fry to comment.
