@@ -17,3 +17,5 @@ For a long time, I've used Optane with two drives and two OS. To change the OS a
 You were warned.
 
 PS: AMD has their caching system too since the Ryzen 2 release.
+
+![Optane explanation by an image](https://techreport.com/r.x/2017_03_27_Intel_Optane_Memory_promises_the_best_of_hard_drives_and_SSDs/FAQ.png)
