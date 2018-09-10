@@ -6,7 +6,7 @@ category: os
 tags: [ 'hardware', 'linux', 'intel' ]
 ---
 
-Intel Optane is a great caching solution for HDD. It lets you have a fast (almost like SATA SSD) and huge disk space. In some stores, it is sold in a cheap package with CPU or/and motherboard.
+Intel Optane is a great caching solution for HDDs. It lets you have a fast (almost like SATA SSD) and huge disk space with much longer lifespan than SSDs have. In some stores, it is sold in a cheap package with CPU or/and motherboard.
 
 # BUT! it works only on Windows
 No Dual-OS booting! It's just not supported. Not even on completely separate drives!
@@ -16,6 +16,8 @@ For a long time, I've used Optane with two drives and two OSs. To change the OS 
 
 You were warned.
 
-PS: AMD has their caching system too since the Ryzen 2 release.
+Still, for a heavy-duty server, Optane might be still a good solution since the Optane won't wear off. HyperV come already with Win 10 Pro license.
+
+PS: AMD has it's caching system working with Linux since the Ryzen 2 release.
 
 ![Optane explanation by an image](https://techreport.com/r.x/2017_03_27_Intel_Optane_Memory_promises_the_best_of_hard_drives_and_SSDs/FAQ.png)
