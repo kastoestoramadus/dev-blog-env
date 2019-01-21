@@ -9,7 +9,7 @@ tags: [ 'vm', 'linux', 'windows', 'docker' ]
 
 ![Linux and Windows together](https://fossbytes.com/wp-content/uploads/2016/11/windows-linux.jpg)
 
-With a new contract, I had a chance to prepare a full Windows environment for Scala project development. Blog post contains pros and cons without the a verdict.
+With a new contract, I had a chance to prepare a full Windows environment for Scala project development. Blog post contains pros and cons without a final thoughts.
 
 # Why MS OS?
 - MS has changed severely since realized their new and strong competition.
