@@ -6,7 +6,7 @@ category: os
 tags: [ 'vm', 'linux', 'windows', 'docker' ]
 ---
 
-With a new contract, I had a chance to prepare a full Windows environment for Scala project development. Blog post contains pros and cons without the final verdict.
+With a new contract, I had a chance to prepare a full Windows environment for Scala project development. Blog post contains pros and cons without the a verdict.
 
 # Why MS OS?
 - MS has changed severely since realized their new and strong competition.
@@ -27,12 +27,14 @@ Windows is made for good UI while Linux/GNU for being a server. Both suck in the
 # Options :
 ## VM on Hyper-V
 Why not to have everything in a VM? 
-Pros:
+
+**Pros:**
 - an advantage of MS drivers and some software,
 - an advantage of MS battery management,
 - mouse movement is smooth. They've implemented RDP for Linux!
 - from my comparison, the CPU overhead is below 2%.
 - Drive Passthrough works! NTFS won't slow you down (no checkpoints of VMs).
+
 **Cons**:
 - high memory consumption, 32GB is to nice have
 - lack of good 2D acceleration by GPU. Despite Linux is a First Class Citizen on Windows still, RemoteFX isn't implemented for Linux guests and GPU Passthrough works only on Windows Server. 
@@ -41,16 +43,18 @@ Microsoft, please allow the GPU passthrough!
 
 ## WSL + Docker
 Windows for Linux subsystem - full Linux OS in a Windows window served by a MS Kernel. 
-Pros:
+
+**Pros:**
 - very low memory footprint,
 - normal bash (Unix ssh!) which may be set as the main terminal at IDE,
 - uses the same ports and disk space as host(-ish). Great interoperability between MS and GNU tools.
 - so much just works!
 - by playing with aliases you may use your Windows Docker as normal Ubuntu Docker Client! All windows terminal commands are available by adding `.exe`
-Cons:
-- High CPU overhead - a scale of 20% losses,
-- Ivy artefacts need sync or reconfiguration of where are stored,
-- IDE still builds separately with Windows tools so need to plan additionally how to share products and resources,
+
+**Cons:**
+- High CPU overhead - a scale of 20% losses.
+- Ivy artefacts and RSA Keys need sync or reconfiguration of where are stored. By default everything linux-ish is install and configured in the protected zone.
+- IDE still builds separately with Windows tools so need to plan additionally how to share products and resources.
 - Docker sometimes needs to be restarted...
 - Not everything works. Adding GPG for a repo needed a workaround...
 
@@ -67,7 +71,7 @@ For future blog post: Linux VM only as a server with access by a text terminal.
 - all UIs from Windows (better tested!),
 - needs far more configuration of VM, network, drive sharing, synchronization and exposing ports for testing from the host...
 
-# Unfinished experiment
+# An Unfinished experiment
 Two days passed and I'm pleased with the results but I'll still stick to raw Ubuntu on separate drive ;).
 
 What to read more? Ask for it in the comments, please. Suggestions are welcome.
