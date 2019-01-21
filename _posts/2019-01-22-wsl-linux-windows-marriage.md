@@ -6,6 +6,9 @@ category: os
 tags: [ 'vm', 'linux', 'windows', 'docker' ]
 ---
 
+
+![Linux and Windows together](https://fossbytes.com/wp-content/uploads/2016/11/windows-linux.jpg)
+
 With a new contract, I had a chance to prepare a full Windows environment for Scala project development. Blog post contains pros and cons without the a verdict.
 
 # Why MS OS?
@@ -60,9 +63,9 @@ Windows for Linux subsystem - full Linux OS in a Windows window served by a MS K
 
 ## Raw Windows?
 Cons:
-- PowerShell: unable to pass arguments to sbt... [link](https://stackoverflow.com/questions/54130521/sbt-and-command-line-parameters-in-powershell-problem?noredirect=1#comment95092578_54130521)
-- poor package management,
-- too much too write...
+- PowerShell: unable to pass arguments to sbt... [link](https://stackoverflow.com/questions/54130521/sbt-and-command-line-parameters-in-powershell-problem?noredirect=1)
+- poor package management
+- too much too write... check my "There is no ideal OS for a programmer" post
 
 ## Mix?
 For future blog post: Linux VM only as a server with access by a text terminal.
