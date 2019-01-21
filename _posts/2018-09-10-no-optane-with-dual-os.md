@@ -16,7 +16,7 @@ For a long time, I've used Optane with two drives and two OSs. To change the OS 
 
 You were warned.
 
-Still, for a heavy-duty server, Optane might be still a good solution since the Optane won't wear off. HyperV come already with Win 10 Pro license.
+Still, for a heavy-duty server, Optane might be still a good solution since the Optane won't wear off. 
 
 PS: AMD has it's caching system working with Linux since the Ryzen 2 release.
 
