@@ -6,19 +6,19 @@ category: os
 tags: [ 'vm', 'linux', 'windows', 'docker' ]
 ---
 
-
 ![Linux and Windows together](https://fossbytes.com/wp-content/uploads/2016/11/windows-linux.jpg)
 
 With a new contract, I had a chance to prepare a full Windows environment for Scala project development. Blog post contains pros and cons without final thoughts.
 
 # Why MS OS?
-- MS has changed severely since realized their new and strong competition.
+- MS has changed severely since they realized they have new and strong competition.
 - Docker is very well integrated - local ports and disk space.
-- Hyper-V is given for free with the Windows 10 Pro. It's a type 1 hypervisor with lower CPU overhead than at VBox and VMware (type 2). VMware licence is more expensive than Win 10 Pro.
-- Drivers work. Trackpoint on Ubuntu sucks (ThinkPad W540) and the thinger-print scanner breaks regularly.
+- Hyper-V comes for free with Windows 10 Pro. It's a type 1 hypervisor with lower CPU overhead than VBox and VMware (type 2). VMware licence is more expensive than Win 10 Pro.
+- Drivers work. Trackpoint on Ubuntu sucks (ThinkPad W540) and the fingerprint scanner breaks regularly.
+- Shortly the clipboard manager and sandbox will be added to Win 10.
 - AcrossCentre, Logichtec Flow, Cortana, DirectX etc. aren't present on Ubuntu.
 
-Windows is made for good UI while Linux/GNU for being a server. Both suck in the opponent's category. Why not combine the best of both worlds?
+Windows is made for good UI while Linux/GNU for being a server. Both suck in the opposite category. Why not combine the best of both worlds?
 
 # Needs
 - git management,
@@ -29,23 +29,23 @@ Windows is made for good UI while Linux/GNU for being a server. Both suck in the
 
 # Options :
 ## VM on Hyper-V
-Why not to have everything in a VM? 
+Why not have everything in a VM? 
 
 **Pros:**
-- an advantage of MS drivers and some software,
-- an advantage of MS battery management,
+- availability of MS drivers and some software.
+- using MS battery management.
 - mouse movement is smooth. They've implemented RDP for Linux!
-- from my comparison, the CPU overhead is below 2%.
+- from my observation, the CPU overhead is below 2%.
 - Drive Passthrough works! NTFS won't slow you down (no checkpoints of VMs).
 
 **Cons**:
-- high memory consumption, 32GB is to nice have
-- lack of good 2D acceleration by GPU. Despite Linux is a First Class Citizen on Windows still, RemoteFX isn't implemented for Linux guests and GPU Passthrough works only on Windows Server. 
+- high memory consumption, 32GB is a nice to have
+- lack of good 2D acceleration by GPU. Although Linux is a First Class Citizen on Windows, RemoteFX still isn't implemented for Linux guests and GPU Passthrough works only on Windows Server. 
 
 Microsoft, please allow the GPU passthrough!
 
 ## WSL + Docker
-Windows for Linux subsystem - full Linux OS in a Windows window served by a MS Kernel. 
+[Windows for Linux subsystem](https://docs.microsoft.com/en-us/windows/wsl/faq) - full Linux OS in a Windows window served by a MS Kernel. 
 
 **Pros:**
 - very low memory footprint,
@@ -55,17 +55,17 @@ Windows for Linux subsystem - full Linux OS in a Windows window served by a MS K
 - by playing with aliases you may use your Windows Docker as normal Ubuntu Docker Client! All windows terminal commands are available by adding `.exe`
 
 **Cons:**
-- High CPU overhead - a scale of 20% losses.
-- Ivy artefacts and RSA Keys need sync or reconfiguration of where are stored. By default everything linux-ish is install and configured in the protected zone.
-- IDE still builds separately with Windows tools so need to plan additionally how to share products and resources.
+- High execution overhead - a scale of 20% losses in comparision to raw Ubuntu (measured on compiling akka repo). The loss is probably related to IO performance).
+- Ivy artefacts and RSA Keys need sync or reconfiguration of where they are stored. By default everything linux-ish is installed and configured in the protected zone.
+- IDE still builds separately with Windows tools so one needs to plan additionally how to share products and resources.
 - Docker sometimes needs to be restarted...
-- Not everything works. Adding GPG for a repo needed a workaround...
+- Not everything works. Adding GPG for a repo needed a [workaround](https://github.com/Microsoft/WSL/issues/3286#issuecomment-402594992)...
 
 ## Raw Windows?
 Cons:
-- PowerShell: unable to pass arguments to sbt... [link](https://stackoverflow.com/questions/54130521/sbt-and-command-line-parameters-in-powershell-problem?noredirect=1)
-- poor package management
-- too much too write... check my "There is no ideal OS for a programmer" post
+- PowerShell: unable to pass arguments to sbt... [link](https://stackoverflow.com/questions/54400669/sbt-and-command-line-parameters-in-powershell-problem)
+- poor built-in package manager
+- check my "There is no ideal OS for a programmer" post for more about it
 
 ## Mix?
 For future blog post: Linux VM only as a server with access by a text terminal.
